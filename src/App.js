@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from './components/Header'
-import Curve from './components/Curve'
-
+import 'bulma/css/bulma.min.css';
+import NavigatiionBar from './components/NavigatiionBar';
+import Landingpage from './screens/Landingpage';
 const App = () => {
   return (
     <>
-      <Header/>
-      <Curve/>
+    <NavigatiionBar/>
+    <Landingpage/>
     </>
   )
 }
