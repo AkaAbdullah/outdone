@@ -4,8 +4,12 @@ import MainImage from '../components/MainImage'
 import TypicalInput from '../components/TypicalInput'
 
 
+
+
 const Landingpage = () => {
+
   return (
+    <>
     <div className='maindiv'>
         <div className='columns'>
             <div className='div-prop column is-4 '>
@@ -16,15 +20,18 @@ const Landingpage = () => {
                 <p className='slogan-paragraph'>But don't just take our word for it...</p>
                 <p className='question'>How old is the person</p>
                 <p className='question2'>you're shopping for?</p>
-                <TypicalInput />
+                <TypicalInput/>
                 <div>
-                <button className='continue-button'>CONTINUE</button>
+                <button  className='continue-button'>CONTINUE</button>
                 </div>
             </div>
             <MainImage />
         </div>
     </div>
+    </>
   )
 }
 
 export default Landingpage
+
+// onClick={() => {setPage((currPage) =>currPage +1)}}

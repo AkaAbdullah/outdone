@@ -1,12 +1,10 @@
 import React from 'react'
 import 'bulma/css/bulma.min.css';
-import NavigatiionBar from './components/NavigatiionBar';
-import Landingpage from './screens/Landingpage';
+import MainScreen from './screens/MainScreen';
 const App = () => {
   return (
     <>
-    <NavigatiionBar/>
-    <Landingpage/>
+    <MainScreen/>
     </>
   )
 }
